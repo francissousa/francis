@@ -1,0 +1,22 @@
+<div class="perfil">
+  <img id="foto-perfil" [src]="img.href" alt="Foto de {{ nome }}">
+  <h2>{{ nome }}</h2>
+  <p class="username">&#64;{{ username }}</p>
+  <p>{{ local }} • {{ idade }} anos</p>
+  <p>{{ empresa }}</p>
+
+  <div class="perfil-stats">
+    <div>
+      <strong>{{ publicacoes }}</strong>
+      <span> Publicações</span>
+    </div>
+    <div>
+      <strong>{{ seguidores }}</strong>
+      <span> Seguidores</span>
+    </div>
+    <div>
+      <strong>{{ seguindo }}</strong>
+      <span> Seguindo</span>
+    </div>
+  </div>
+</div>
