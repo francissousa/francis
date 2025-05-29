@@ -16,7 +16,7 @@ export class ProdutosComponent {
   
   listaProdutos: Produto[]=[];
   ngOnInit(){
-    
+    this.listaProdutos = this.produtoService.getProdutos();
   }
 
 }
