@@ -1,0 +1,34 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  color: #3498db;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ecf0f1;
+  margin: 10px auto;
+  padding: 10px 20px;
+  width: 300px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #d0d7de;
+}
+
+.concluida {
+  text-decoration: line-through;
+  color: #aaa;
+  background-color: #bdc3c7;
+}

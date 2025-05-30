@@ -1,0 +1,49 @@
+/* Centraliza tudo na página */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Nome estilizado */
+h2 {
+  color: #3498db;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Profissão */
+p {
+  color: #555;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Lista */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ecf0f1;
+  margin: 0.5rem 0;
+  padding: 0.7rem 1.5rem;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+  font-size: 1.1rem;
+}
+
+li:hover {
+  background-color: #d0d7de;
+  cursor: pointer;
+}
